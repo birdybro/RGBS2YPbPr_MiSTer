@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\dev\ypbprSync_MiSTer\ypbprSync_MiSTer\ypbprSync_MiSTer.kicad_sch</source>
+    <date>7/31/2022 11:58:21 AM</date>
+    <tool>Eeschema (6.0.2)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ypbprSync_MiSTer.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/1n914-d.pdf</datasheet>
+      <fields>
+        <field name="URL">https://www.digikey.com/en/products/detail/onsemi/1N4148/458603</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="URL" value="https://www.digikey.com/en/products/detail/onsemi/1N4148/458603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ypbprSync_MiSTer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>290bfff4-1771-46c6-9d48-fb255a960f19</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>DB15_Male_HighDensity_MountingHoles</value>
+      <footprint>Connector_Dsub:DSUB-15-HD_Male_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm</footprint>
+      <datasheet>https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10090926.pdf</datasheet>
+      <fields>
+        <field name="URL">https://www.digikey.com/en/products/detail/amphenol-cs-fci/10090926-P154VLF/2350295</field>
+      </fields>
+      <libsource lib="Connector" part="DB15_Male_HighDensity_MountingHoles" description="15-pin male D-SUB connector, High density (3 columns), Triple Row, Generic, VGA-connector, Mounting Hole"/>
+      <property name="URL" value="https://www.digikey.com/en/products/detail/amphenol-cs-fci/10090926-P154VLF/2350295"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ypbprSync_MiSTer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>813ef21e-74e3-4161-8789-36ea572d843c</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>DB15_Female_HighDensity_MountingHoles</value>
+      <footprint>Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm</footprint>
+      <datasheet>https://files.edac.net/edac/content/series/og/English/EDAC%20633%20634%20Series%20D-sub%20Connectors%20English%20Ordering%20Guide.pdf</datasheet>
+      <fields>
+        <field name="URL">https://www.digikey.com/en/products/detail/edac-inc/634-015-263-042/1299473</field>
+      </fields>
+      <libsource lib="Connector" part="DB15_Female_HighDensity_MountingHoles" description="15-pin female D-SUB connector, High density (3 columns), Triple Row, Generic, VGA-connector, Mounting Hole"/>
+      <property name="URL" value="https://www.digikey.com/en/products/detail/edac-inc/634-015-263-042/1299473"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ypbprSync_MiSTer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d35d7027-ac1b-44b2-9664-3d8a37ee0f4e</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>330Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/lr/YAGEO%20CFR_datasheet_2021v0.pdf</datasheet>
+      <fields>
+        <field name="URL">https://www.digikey.com/en/products/detail/yageo/CFR-25JB-52-330R/1636</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="URL" value="https://www.digikey.com/en/products/detail/yageo/CFR-25JB-52-330R/1636"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ypbprSync_MiSTer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96483dfa-b65d-4b42-9df0-72b27e8dea58</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="DB15_Female_HighDensity_MountingHoles">
+      <description>15-pin female D-SUB connector, High density (3 columns), Triple Row, Generic, VGA-connector, Mounting Hole</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>DSUB*Female*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DB15_Female_HighDensity_MountingHoles</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="0" name="" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+        <pin num="11" name="" type="passive"/>
+        <pin num="12" name="" type="passive"/>
+        <pin num="13" name="" type="passive"/>
+        <pin num="14" name="" type="passive"/>
+        <pin num="15" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="DB15_Male_HighDensity_MountingHoles">
+      <description>15-pin male D-SUB connector, High density (3 columns), Triple Row, Generic, VGA-connector, Mounting Hole</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>DSUB*Male*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DB15_Male_HighDensity_MountingHoles</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="0" name="" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+        <pin num="11" name="" type="passive"/>
+        <pin num="12" name="" type="passive"/>
+        <pin num="13" name="" type="passive"/>
+        <pin num="14" name="" type="passive"/>
+        <pin num="15" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Blue">
+      <node ref="J1" pin="3" pintype="passive"/>
+      <node ref="J2" pin="3" pintype="passive"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="J1" pin="0" pintype="passive"/>
+      <node ref="J1" pin="5" pintype="passive"/>
+      <node ref="J1" pin="6" pintype="passive"/>
+      <node ref="J1" pin="7" pintype="passive"/>
+      <node ref="J1" pin="8" pintype="passive"/>
+      <node ref="J2" pin="0" pintype="passive"/>
+      <node ref="J2" pin="5" pintype="passive"/>
+      <node ref="J2" pin="6" pintype="passive"/>
+      <node ref="J2" pin="7" pintype="passive"/>
+      <node ref="J2" pin="8" pintype="passive"/>
+    </net>
+    <net code="3" name="Green">
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="J2" pin="2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="HSync">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="13" pintype="passive"/>
+      <node ref="J2" pin="13" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="Red">
+      <node ref="J1" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Sync Ground">
+      <node ref="J1" pin="10" pintype="passive"/>
+      <node ref="J2" pin="10" pintype="passive"/>
+    </net>
+    <net code="8" name="VSync">
+      <node ref="J1" pin="14" pintype="passive"/>
+      <node ref="J2" pin="14" pintype="passive"/>
+    </net>
+    <net code="9" name="unconnected-(J1-Pad4)">
+      <node ref="J1" pin="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="10" name="unconnected-(J1-Pad9)">
+      <node ref="J1" pin="9" pintype="passive+no_connect"/>
+    </net>
+    <net code="11" name="unconnected-(J1-Pad11)">
+      <node ref="J1" pin="11" pintype="passive+no_connect"/>
+    </net>
+    <net code="12" name="unconnected-(J1-Pad12)">
+      <node ref="J1" pin="12" pintype="passive+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(J1-Pad15)">
+      <node ref="J1" pin="15" pintype="passive+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(J2-Pad4)">
+      <node ref="J2" pin="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(J2-Pad9)">
+      <node ref="J2" pin="9" pintype="passive+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(J2-Pad11)">
+      <node ref="J2" pin="11" pintype="passive+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(J2-Pad12)">
+      <node ref="J2" pin="12" pintype="passive+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(J2-Pad15)">
+      <node ref="J2" pin="15" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

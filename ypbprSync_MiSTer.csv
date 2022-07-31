@@ -1,0 +1,21 @@
+Date:,7/31/2022 11:58,,,,,,
+Tool:,Eeschema (6.0.2),,,,,,
+Component Count:,4,,,,,,
+,,,,,,,
+Individual Components:,,,,,,,
+,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,URL
+,,D1,1N4148,Diode:1N4148,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal,https://www.onsemi.com/pdf/datasheet/1n914-d.pdf,https://www.digikey.com/en/products/detail/onsemi/1N4148/458603
+,,J1,DB15_Male_HighDensity_MountingHoles,Connector:DB15_Male_HighDensity_MountingHoles,Connector_Dsub:DSUB-15-HD_Male_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm,https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10090926.pdf,https://www.digikey.com/en/products/detail/amphenol-cs-fci/10090926-P154VLF/2350295
+,,J2,DB15_Female_HighDensity_MountingHoles,Connector:DB15_Female_HighDensity_MountingHoles,Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm,https://files.edac.net/edac/content/series/og/English/EDAC%20633%20634%20Series%20D-sub%20Connectors%20English%20Ordering%20Guide.pdf,https://www.digikey.com/en/products/detail/edac-inc/634-015-263-042/1299473
+,,R1,330 ohm,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,https://www.yageo.com/upload/media/product/productsearch/datasheet/lr/YAGEO%20CFR_datasheet_2021v0.pdf,https://www.digikey.com/en/products/detail/yageo/CFR-25JB-52-330R/1636
+,,,,,,,
+,,,,,,,
+,,,,,,,
+Collated Components:,,,,,,,
+,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,URL
+1,1,D1,1N4148,Diode:1N4148,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal,https://www.onsemi.com/pdf/datasheet/1n914-d.pdf,https://www.digikey.com/en/products/detail/onsemi/1N4148/458603
+2,1,J1,DB15_Male_HighDensity_MountingHoles,Connector:DB15_Male_HighDensity_MountingHoles,Connector_Dsub:DSUB-15-HD_Male_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm,https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10090926.pdf,https://www.digikey.com/en/products/detail/amphenol-cs-fci/10090926-P154VLF/2350295
+3,1,J2,DB15_Female_HighDensity_MountingHoles,Connector:DB15_Female_HighDensity_MountingHoles,Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm,https://files.edac.net/edac/content/series/og/English/EDAC%20633%20634%20Series%20D-sub%20Connectors%20English%20Ordering%20Guide.pdf,https://www.digikey.com/en/products/detail/edac-inc/634-015-263-042/1299473
+4,1,R1,330 ohm,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,https://www.yageo.com/upload/media/product/productsearch/datasheet/lr/YAGEO%20CFR_datasheet_2021v0.pdf,https://www.digikey.com/en/products/detail/yageo/CFR-25JB-52-330R/1636
